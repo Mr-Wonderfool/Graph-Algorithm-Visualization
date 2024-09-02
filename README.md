@@ -11,12 +11,12 @@ and start service on `localhost:3000`
 npm run dev
 ```
 ##### Results
-![Prim Visualization](images/prim算法运行过程.png "prim visualization")
-![Kruskal Visualization](images/kruskal算法运行过程.png "kruskal visualization")
-![Dijkstra Visualization](images/dijkstra算法运行过程.png "Dijkstra Visualization")
-![Floyd Visualization](images/Floyd算法过程.png "Floyd Visualization")
-![Metro Lines](images/上海地铁线路图.png "Shanghai Metro Lines")
-![Transfer Routes](images/换乘路线图.png "Transfer Routes")
+![Prim Visualization](images/prim算法运行过程.png "prim visualization"){width=50%}
+![Kruskal Visualization](images/kruskal算法运行过程.png "kruskal visualization"){width=50%}
+![Dijkstra Visualization](images/dijkstra算法运行过程.png "Dijkstra Visualization"){width=60%}
+![Floyd Visualization](images/Floyd算法过程.png "Floyd Visualization"){width=60%}
+![Metro Lines](images/上海地铁线路图.png "Shanghai Metro Lines"){width=50%}
+![Transfer Routes](images/换乘路线图.png "Transfer Routes"){width=60%}
 ##### Algorithms
 - Prim and Kruskal for MST
 - Dijkstra for single source shortest path
