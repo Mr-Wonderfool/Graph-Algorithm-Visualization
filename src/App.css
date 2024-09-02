@@ -1,0 +1,115 @@
+.control-panel {
+  position: fixed;
+  top: 50px; /* 50px from the top of the viewport */
+  left: 50%; /* in the middle of display field */
+  transform: translateX(-50%); /* Center the panel horizontally */
+  width: calc(40%);
+  max-width: 90%;
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1050; /* Ensure it stays on top */
+  border-radius: 8px;
+}
+
+.sidebar {
+  position: fixed;
+  top: calc(5%);
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: calc(5%);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1040;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.sidebar:hover {
+  width: calc(10%);
+}
+
+.sidebar button {
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  border-radius: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: padding-left 0.3s ease;
+}
+
+.sidebar:hover button {
+  padding-left: 20px;
+}
+
+.sidebar button + button {
+  margin-top: 1px;
+}
+
+.graph-canvas {
+  position: fixed;
+  top: calc(2.5%);
+  bottom: calc(2.5%);
+  left: calc(50%);
+  width: calc(48%);
+  background-color: #f8f9fa6a;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  flex: 1;
+  overflow: hidden;
+}
+
+.info-canvas {
+  margin: 0;
+  top: calc(2.5%);
+  bottom: calc(2.5%);
+  left: calc(10%);
+  width: calc(37.5%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  flex: 1;
+  max-height: 100vh;
+  padding: 10px;
+  overflow-y: auto;
+  position: fixed;
+}
+
+.metro-sidebar {
+  position: fixed;
+  bottom: calc(20%);
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: calc(5%);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1040;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.metro-sidebar:hover {
+  width: calc(10%);
+}
+
+.metro-sidebar button {
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  border-radius: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: padding-left 0.3s ease;
+}
+
+.metro-sidebar:hover button {
+  padding-left: 20px;
+}
+
+.metro-sidebar button + button {
+  margin-top: 1px;
+}

@@ -1,0 +1,19 @@
+.continue {
+  position: fixed;
+  bottom: calc(5%);
+  left: calc(70%);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-panel {
+  position: fixed;
+  top: 50px; /* 50px from the top of the viewport */
+  left: calc(70%); /* in the middle of display field */
+  transform: translateX(-50%); /* Center the panel horizontally */
+  width: calc(30%);
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1050; /* Ensure it stays on top */
+  border-radius: 8px;
+}
